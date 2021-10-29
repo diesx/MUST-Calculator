@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> MUST Tool - Medcare Solutions</title>
+    <link href="stylesheet.css" rel="stylesheet"  type="text/css" medial="all" />
+    <link href="print.css" rel="stylesheet" type="text/css" media="print" />
+    <script src="scipt.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="item header">
+            <h2> Malnutrition Universal Screening Tool</h2>
+        </div>
+        <div class="item main">
+            <table>
+                <tr>
+                    <th div style="border-left-width: 2px; border-top-width: 2px;">Current <br />Height<br /> (m)</th>
+                    <th div style="border-left-width: 2px; border-top-width: 2px;">Current <br /> Weight<br /> (kg)</th>
+                    <th div style="border-left-width: 2px; border-top-width: 2px;">BMI</th>
+                    <th div style="border-left-width: 2px; border-top-width: 2px;">Weight <br />Loss <br /> 1 month<br /> (kg)</th>
+                    <th div style="border-left-width: 2px; border-top-width: 2px;">Weight<br />Loss <br />3-6 months <br />(kg)</th>
+                    <th div style="border-left-width: 2px; border-top-width: 2px; border-right-width: 2px">Malnutrition <br />Score   </th>
+                </tr>
+                <tr>
+                    <td div style="background-color: white; border: solid 0; border-left-width: 2px; border-bottom-width: 2px;"><input type="number" id="heighT" /></td>
+                    <td div style="background-color: white; border: solid 0; border-left-width: 2px; border-bottom-width: 2px;"><input type="number" id="weighT" /></td>
+                    <td div style="background-color: white; border: solid 0; border-left-width: 2px; border-bottom-width: 2px;"><p id="bmi"></p></td>
+                    <td div style="background-color: white; border: solid 0; border-left-width: 2px; border-bottom-width: 2px;"><input type="number" id="weightloss" /></td>
+                    <td div style="background-color: white; border: solid 0; border-left-width: 2px; border-bottom-width: 2px;"><input type="number" id="weightLossM" /></td>
+                    <td div style="background-color: white; border: solid 0; border-left-width: 2px; border-right-width: 2px; border-bottom-width: 2px;"><p id="malnutritionRisk"></p></td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="6" div style="background-color: white; border: solid 0 white; border-left-width: 2px; border-right-width: 2px; border-bottom-width: 2px; background-color: #ced5de;"><p id="message"></p></td>
+                </tr>
+            </table>
+        </div>
+        <div class="item button">
+        <input type="button" onclick="CalculateMust()" value="Calculate">
+        </div>   
+    
+            <div class="item footer">
+            <p>
+                All Rights Reserved <br />
+                Medcare Solutions - Nursing Consultancy services
+            </p>
+            <div class="item logo"> <img src="doclogo.png"> </div>
+            </div>
+   </div>
+</body>
+</html>

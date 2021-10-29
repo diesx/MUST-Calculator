@@ -1,0 +1,46 @@
+﻿
+body {
+    margin: 40px 15px 40px 15px;
+}
+h2 {
+    color: #0097c6;
+}
+table {
+    border-radius: 4px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+thead {
+    border: 2px solid black;
+}
+tbody{
+    break-after: always;
+}
+input {
+    border-color: transparent;
+}
+.actions {
+    overflow: initial;
+    max-height: initial;
+}
+.button {
+    display: none;
+}
+   .button:hover{
+        display: none;
+    }
+    .button:active{
+        display: none;
+    }
+.clientDetails{
+    border: transparent;
+    font-weight: 400;
+}
+.footer {
+    break-before: always;
+    break-after: always;
+}
+windwos::after {
+    widows: 15;
+}
